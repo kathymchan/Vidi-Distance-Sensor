@@ -1,0 +1,73 @@
+Materials and price estimate:
+Jumper wires x4 (0.32)
+LiDar sensor x1 (30)
+Nylon straps w/ buckle (10)
+Velcro stickers (5)
+ 3x7 prototype board (2)
+2x10 prototype board (1)
+Arduino Nano (5 - 10)
+9v lithium usb rechargeable battery (5)
+ vibration motor(s) 1-4x (~4) 
+Dip Switch (1)
+6 pin harness and 2 pin harness (1)
+3D printed box (108 mm long 37mm wide approx 26 mm deep + 3 mm margin - box)
+Hookup wire / spare wire (1)
+(The Tf-Luna comes with 3 data cables already inside the box)
+
+Tools:
+Soldering iron
+Crimping tool
+Wire cutter 
+3D printer
+Sewing machine 
+Computer with arduino IDE
+​​Usb cable 
+
+Upload code to arduino nano. You will need a usb connection cable and a computer. Download the arduino IDE and copy and paste the code into the workspace. 
+
+Take the 3x7 prototype board and place the arduino nano at the top. 
+
+Create a custom harness for the 6 wires by using a wire cutter and crimp tool. Crimp the ends of the wires and fit them into a 6 pin harness. Place the other half of the harness into the prototype board next to the arduino. 
+Connect the bottom of the harness pins to the arduino through soldering respective pins together. Use hookup wires for longer connections. 
+
+White - A4
+Green- A5
+Black - 5V
+Red - GND
+Yellow - GND
+Blue - Nothing
+
+The following numbers are from left to right, with the TF-Luna facing upwards. 
+1 - 5V
+2 - A4
+3 - A5
+4 - GND
+5 - GND
+6 - Nothing
+
+Add 2 of the two pin harnesses next to the arduino on the prototype board. 
+
+Cut 2 shorter wires for the battery and 2 longer wires for the vibration motor
+
+Take your second prototype board and line it with 4 vibration motors. 
+
+Strip the two jumper wires meant for the vibration motors and solder each side of the vibration motors to the respective wire. 
+
+Solder the switch to the 2 pins on the bottom of the harness connected to the battery using 2 hookup wires.
+
+Solder the wires to the battery and crimp them on the other side, then attach them into one of the 2 pinned harnesses. 
+
+Crimp wires attached to vibration motors and attach them into the other 2 pinned harness. 
+
+Solder the underside of both of the 2 pin harnesses to the arduino
+Vibration motor (black) - GND
+Vibration motor (white) - D5
+Battery (red) - VIN (voltage in)
+Battery (black) - GND
+
+Take the 3D printed box and drill 3 holes into the box with a dremel tool. One hole is meant for the usb charging port on the battery, the second hole is for the vibration motor and the TF-Luna data cable, and the third hole is for the dip switch.
+
+Attach TF-Luna to data cable
+
+Cut two smaller strips of the nylon straps and sew onto one of the larger straps with a buckle in the back. To adjust to the body, tighten the big strap in the back and tie the two smaller straps around the neck like an apron. 
+
